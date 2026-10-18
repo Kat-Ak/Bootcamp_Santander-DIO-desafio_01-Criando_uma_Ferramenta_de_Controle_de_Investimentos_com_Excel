@@ -114,6 +114,32 @@ O sistema foi estruturado sob uma **política de segurança multicamadas**:
 
 ---
 
+## 📸 Evidências Visuais do Aplicativo Operando (Roteiro de Testes)
+
+Abaixo estão as capturas de tela que validam o comportamento dinâmico do motor de cálculo, a alteração tática de ativos por perfil de risco e a inteligência emocional do sistema:
+
+### 💼 Teste 1: Perfil Moderado (Gabarito Base)
+*   **Configuração:** Aporte de R\$ 300,00 e Preço da Cota parametrizado em R\$ 10,00.
+*   *Evidência:* Demonstra a distribuição equilibrada do capital nas colunas B e C e o acionamento do indicador comemorativo.
+![FIINVEST - Perfil Moderado](evidencias/01_perfil_moderado.png)
+
+### 🛡️ Teste 2: Transição para Perfil Conservador (Mudança de Alocação)
+*   **Configuração:** Alteração no seletor `perfil_escolhido` para "Conservador".
+*   *Evidência:* Valida o motor do `PROCV` migrando automaticamente 50% do capital para fundos de TIJOLO e reduzindo a exposição em segmentos de maior risco.
+![FIINVEST - Perfil Conservador](evidencias/02_perfil_conservador.png)
+
+### 🚀 Teste 3: Transição para Perfil Agressivo (Foco em Performance)
+*   **Configuração:** Alteração no seletor para "Agressivo".
+*   *Evidência:* Valida a reestruturação da grade em tempo real, concentrando 40% do aporte no segmento de PAPEL.
+![FIINVEST - Perfil Agressivo](evidencias/03_perfil_agressivo.png)
+
+### ⏳ Teste 4: Cenário de Maturação (Indicador Preditivo Ativado)
+*   **Configuração:** Perfil Moderado com Preço da Cota alterado para R\$ 100,00 na célula `B36`.
+*   *Evidência:* Valida a formatação condicional alternando a fonte para Laranja Bronze e calculando o valor exato residual que falta para atingir a autossuficiência.
+![FIINVEST - Visor Quase Lá](evidencias/04_cenario_quase_la.png)
+
+---
+
 ## 🗺️ Conexões do Ecossistema
 
 *   🔗 **Projeto Full:** [Acessar Pasta do Desafio](https://github.com)
